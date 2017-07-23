@@ -1,0 +1,25 @@
+{
+  "name": "apiai-nodejs-client",
+  "scripts": {
+  },
+  "env": {
+    "SPARKPOST_API_URL": "Heroku",
+    "SPARKPOST_SANDBOX_DOMAIN": {
+      "required": true
+    },
+    "SPARKPOST_SMTP_HOST": "smtp.sparkpostmail.com",
+    "SPARKPOST_SMTP_PASSWORD": "b6c806fd216be398037e10fb77ef3767865960dd",
+    "SPARKPOST_SMTP_PORT": "587",
+    "SPARKPOST_SMTP_USERNAME": "Crubino@uscgcorp.com"
+  },
+  "formation": {
+  },
+  "addons": [
+    "sparkpost"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
